@@ -10,5 +10,5 @@ res.write(os.hostname() + '<br>');
 
 res.end();
 
-}).listen(5000);
-console.log("Listening to Port 5000");
+}).listen(80);
+console.log("Listening to Port 80");
